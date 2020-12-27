@@ -1,0 +1,164 @@
+INFO: Successfully retrieved: sheet: 1xQ1csPvn9BhFmsTzxjSTN1nYBMGmzFOtT4ESJXlo3eE 
+INFO: Successfully retrieved: handsFreeMode: true 
+INFO: Successfully retrieved: updateNotifier: false 
+INFO: Successfully retrieved: grizzlyVerification: false 
+INFO: Successfully retrieved: applicationName: School_of_Music 
+INFO: Successfully retrieved: idLength: 33 
+INFO: Successfully retrieved: idLengthFallback: 34 
+INFO: Loaded custom stylesheet! 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+WARNING: There was an issue adding cell data, using fallback. 
+Text '' could not be parsed at index 0 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+SEVERE: Well this is awkward, difference shouldn't be negative: h:-23 m:-35 s:23 
+INFO: Logging out:  
+SEVERE: java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945)
+	at java.base/java.time.LocalDateTime.parse(LocalDateTime.java:492)
+	at activities.UserActivity.logoutUser(UserActivity.java:169)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+WARNING: There was an issue adding cell data, using fallback. 
+text 
+SEVERE: com.google.api.client.googleapis.json.GoogleJsonResponseException: 400 Bad Request
+{
+  "code" : 400,
+  "errors" : [ {
+    "domain" : "global",
+    "message" : "Unable to parse range: Date Log!O0",
+    "reason" : "badRequest"
+  } ],
+  "message" : "Unable to parse range: Date Log!O0",
+  "status" : "INVALID_ARGUMENT"
+}
+	at com.google.api.client.googleapis.json.GoogleJsonResponseException.from(GoogleJsonResponseException.java:150)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:113)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:40)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest$1.interceptResponse(AbstractGoogleClientRequest.java:451)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1089)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:549)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:482)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:599)
+	at databases.DatabaseProcess.updateSpreadSheet(DatabaseProcess.java:256)
+	at databases.DatabaseUtils.setCellData(DatabaseUtils.java:123)
+	at activities.LogoutActivity.logoutUserWithHours(LogoutActivity.java:93)
+	at activities.UserActivity.logoutUser(UserActivity.java:215)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+WARNING: There was an issue adding cell data, using fallback. 
+text 
+SEVERE: com.google.api.client.googleapis.json.GoogleJsonResponseException: 400 Bad Request
+{
+  "code" : 400,
+  "errors" : [ {
+    "domain" : "global",
+    "message" : "Unable to parse range: Date Log!O0",
+    "reason" : "badRequest"
+  } ],
+  "message" : "Unable to parse range: Date Log!O0",
+  "status" : "INVALID_ARGUMENT"
+}
+	at com.google.api.client.googleapis.json.GoogleJsonResponseException.from(GoogleJsonResponseException.java:150)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:113)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:40)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest$1.interceptResponse(AbstractGoogleClientRequest.java:451)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1089)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:549)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:482)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:599)
+	at databases.DatabaseProcess.updateSpreadSheet(DatabaseProcess.java:256)
+	at databases.DatabaseUtils.setCellData(DatabaseUtils.java:123)
+	at activities.LogoutActivity.logoutUserWithHours(LogoutActivity.java:93)
+	at activities.UserActivity.logoutUser(UserActivity.java:215)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging out:  
+SEVERE: java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945)
+	at java.base/java.time.LocalDateTime.parse(LocalDateTime.java:492)
+	at activities.UserActivity.logoutUser(UserActivity.java:169)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+WARNING: There was an issue adding cell data, using fallback. 
+text 
+SEVERE: com.google.api.client.googleapis.json.GoogleJsonResponseException: 400 Bad Request
+{
+  "code" : 400,
+  "errors" : [ {
+    "domain" : "global",
+    "message" : "Unable to parse range: Date Log!O0",
+    "reason" : "badRequest"
+  } ],
+  "message" : "Unable to parse range: Date Log!O0",
+  "status" : "INVALID_ARGUMENT"
+}
+	at com.google.api.client.googleapis.json.GoogleJsonResponseException.from(GoogleJsonResponseException.java:150)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:113)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:40)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest$1.interceptResponse(AbstractGoogleClientRequest.java:451)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1089)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:549)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:482)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:599)
+	at databases.DatabaseProcess.updateSpreadSheet(DatabaseProcess.java:256)
+	at databases.DatabaseUtils.setCellData(DatabaseUtils.java:123)
+	at activities.LogoutActivity.logoutUserWithHours(LogoutActivity.java:93)
+	at activities.UserActivity.logoutUser(UserActivity.java:215)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+WARNING: There was an issue adding cell data, using fallback. 
+Text '' could not be parsed at index 0 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818189E06666098007E18189E0686E018 
+SEVERE: Well this is awkward, difference shouldn't be negative: h:-23 m:-30 s:-2 
+INFO: Logging in: 1818189E06666098007E18189E0686E018 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818189E06666098007E18189E0686E018 
+WARNING: There was an issue adding cell data, using fallback. 
+Text '' could not be parsed at index 0 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Logging in: 1818189E06666098007E18189E0686E018 
+INFO: Batch updating sheet 
+INFO: Logging in: 1818181E601E061E1E9E1E18869EF89EFE 
+INFO: Batch updating sheet 

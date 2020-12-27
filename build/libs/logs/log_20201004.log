@@ -1,0 +1,17 @@
+INFO: Directory creation success? true 
+SEVERE: java.io.FileNotFoundException: /Users/col/Documents/GitHub/GrizzlyTime/build/libs/config.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.util.Scanner.<init>(Scanner.java:639)
+	at helpers.CommonUtils.readFile(CommonUtils.java:31)
+	at databases.JSONHelper.getKey(JSONHelper.java:31)
+	at activities.LocalDbActivity.updateLocalDb(LocalDbActivity.java:30)
+	at GrizzlyTime.start(GrizzlyTime.java:42)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:846)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:455)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+ 

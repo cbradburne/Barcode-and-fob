@@ -1,0 +1,22 @@
+INFO: Successfully retrieved: sheet: 1xQ1csPvn9BhFmsTzxjSTN1nYBMGmzFOtT4ESJXlo3eE 
+INFO: Successfully retrieved: handsFreeMode: true 
+INFO: Successfully retrieved: updateNotifier: false 
+INFO: Successfully retrieved: grizzlyVerification: false 
+INFO: Successfully retrieved: applicationName: School_of_Music 
+INFO: Successfully retrieved: idLength: 33 
+INFO: Successfully retrieved: idLengthFallback: 34 
+INFO: Loaded custom stylesheet! 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Logging in: 1818181E601E061E1E1E1E18869EF81EFE 
+INFO: Batch updating sheet 
+INFO: Logging out: 1818189E06666098007E18189E0686E018 
+INFO: Logging out:  
+SEVERE: java.lang.NullPointerException: text
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1945)
+	at java.base/java.time.LocalDateTime.parse(LocalDateTime.java:492)
+	at activities.UserActivity.logoutUser(UserActivity.java:169)
+	at scenes.GrizzlyScene.lambda$loginUser$10(GrizzlyScene.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ 
+INFO: Logging out: 1818181E601E061E1E1E1E18869EF81EFE 
